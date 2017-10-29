@@ -17,10 +17,10 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
-        self.pageViewController = UIPageViewController(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: nil)
+        self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         self.pageViewController!.delegate = self
 
-        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(0, storyboard: self.storyboard!)!
+        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(1, storyboard: self.storyboard!)!
         let viewControllers = [startingViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .forward, animated: false, completion: {done in })
 

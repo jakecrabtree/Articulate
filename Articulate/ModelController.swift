@@ -32,7 +32,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
 
     func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> DataViewController? {
         // Return the data view controller for the given index.
-        if (self.pageData.count == 0) || (index >= self.pageData.count) {
+        if (self.pageData.  == 0) || (index >= self.pageData.count) {
             return nil
         }
 
