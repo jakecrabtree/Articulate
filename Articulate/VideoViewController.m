@@ -7,6 +7,7 @@
 //
 
 #import "VideoViewController.h"
+#import "HomeViewController.h"
 @import AVFoundation;
 
 @interface VideoViewController ()
@@ -92,7 +93,8 @@
 
 - (void)cancelButtonPressed:(UIButton *)button {
     NSLog(@"cancel button pressed!");
-    [self.navigationController popViewControllerAnimated:YES];
+    HomeViewController * hv = [[HomeViewController alloc] init];
+    [self presentViewController:hv animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

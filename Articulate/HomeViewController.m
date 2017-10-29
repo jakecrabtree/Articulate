@@ -25,7 +25,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
+    
     self.view.backgroundColor = [UIColor blackColor];
     [self.navigationController setNavigationBarHidden:YES animated:NO];
     
@@ -193,8 +194,13 @@
             NSURL *outputURL = [[[self applicationDocumentsDirectory]
                                  URLByAppendingPathComponent:@"test1"] URLByAppendingPathExtension:@"mov"];
             [self.camera startRecordingWithOutputUrl:outputURL didRecord:^(LLSimpleCamera *camera, NSURL *outputFileUrl, NSError *error) {
-                VideoViewController *vc = [[VideoViewController alloc] initWithVideoUrl:outputFileUrl];
-                [self.navigationController pushViewController:vc animated:YES];
+                if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum (outputFileUrl.relativePath))
+                {
+                    UISaveVideoAtPathToSavedPhotosAlbum (outputFileUrl.relativePath,self, nil, nil);
+                }
+               // VideoViewController *vc = [[VideoViewController alloc] initWithVideoUrl:outputFileUrl];
+                UIViewController * vc = [self.storyboard instantiateViewControllerWithIdentifier:@"SpeechViewController"];
+                [self presentViewController:vc animated:YES completion:nil];
             }];
             
         } else {
