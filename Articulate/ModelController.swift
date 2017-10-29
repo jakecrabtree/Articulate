@@ -20,38 +20,45 @@ import UIKit
 
 class ModelController: NSObject, UIPageViewControllerDataSource {
 
-    var pageData: [String] = []
-
+    var pageData: [String] = ["SpeechViewController", "HomeViewController", "SocialViewController"]
 
     override init() {
         super.init()
         // Create the data model.
-        let dateFormatter = DateFormatter()
-        pageData = dateFormatter.monthSymbols
+//        let dateFormatter = DateFormatter()
+//        pageData = dateFormatter.monthSymbols
     }
 
-    func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> DataViewController? {
+    func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> UIViewController? {
         // Return the data view controller for the given index.
-        if (self.pageData.  == 0) || (index >= self.pageData.count) {
+        if (self.pageData.count == 0) || (index >= self.pageData.count) {
             return nil
         }
 
         // Create a new view controller and pass suitable data.
-        let dataViewController = storyboard.instantiateViewController(withIdentifier: "DataViewController") as! DataViewController
-        dataViewController.dataObject = self.pageData[index]
-        return dataViewController
+        return storyboard.instantiateViewController(withIdentifier: self.pageData[index])
+        
     }
 
-    func indexOfViewController(_ viewController: DataViewController) -> Int {
+    func indexOfViewController(_ viewController: UIViewController) -> Int {
         // Return the index of the given data view controller.
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-        return pageData.index(of: viewController.dataObject) ?? NSNotFound
+       // return pageData.index(of: viewController.dataObject) ?? NSNotFound
+        if (viewController is SpeechViewController){
+            return 0;
+        }
+        else if (viewController is HomeViewController){
+            return 1;
+        }
+        else {
+            return 2;
+        }
     }
 
     // MARK: - Page View Controller Data Source
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        var index = self.indexOfViewController(viewController as! DataViewController)
+        var index = self.indexOfViewController(viewController)
         if (index == 0) || (index == NSNotFound) {
             return nil
         }
@@ -61,7 +68,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
     }
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        var index = self.indexOfViewController(viewController as! DataViewController)
+        var index = self.indexOfViewController(viewController)
         if index == NSNotFound {
             return nil
         }

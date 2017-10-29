@@ -16,6 +16,26 @@
 		FC5532951FA5524B007D7E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5532931FA5524B007D7E20 /* LaunchScreen.storyboard */; };
 		FC5532A01FA5524B007D7E20 /* ArticulateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55329F1FA5524B007D7E20 /* ArticulateTests.swift */; };
 		FC5532AB1FA5524B007D7E20 /* ArticulateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5532AA1FA5524B007D7E20 /* ArticulateUITests.swift */; };
+		FC5532D21FA5598D007D7E20 /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532B91FA55987007D7E20 /* camera-flash.png */; };
+		FC5532D31FA5598D007D7E20 /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532BC1FA55987007D7E20 /* camera-flash@2x.png */; };
+		FC5532D41FA5598D007D7E20 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532BD1FA55988007D7E20 /* UIImage+FixOrientation.m */; };
+		FC5532D51FA5598D007D7E20 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532BE1FA55988007D7E20 /* ImageViewController.m */; };
+		FC5532D61FA5598D007D7E20 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532C01FA55988007D7E20 /* LLSimpleCamera.m */; };
+		FC5532D71FA5598D007D7E20 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532C11FA55988007D7E20 /* cancel@2x.png */; };
+		FC5532D81FA5598D007D7E20 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532C21FA55989007D7E20 /* VideoViewController.m */; };
+		FC5532D91FA5598D007D7E20 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532C31FA55989007D7E20 /* cancel.png */; };
+		FC5532DA1FA5598D007D7E20 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532C41FA55989007D7E20 /* UIImage+Crop.m */; };
+		FC5532DB1FA5598D007D7E20 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532C51FA55989007D7E20 /* cancel@3x.png */; };
+		FC5532DC1FA5598D007D7E20 /* camera-switch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532C61FA5598A007D7E20 /* camera-switch.png */; };
+		FC5532DD1FA5598D007D7E20 /* camera-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5532C81FA5598A007D7E20 /* camera-switch@2x.png */; };
+		FC5532DE1FA5598D007D7E20 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532CA1FA5598B007D7E20 /* UIImage+Resize.m */; };
+		FC5532DF1FA5598D007D7E20 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532CB1FA5598B007D7E20 /* LLSimpleCamera+Helper.m */; };
+		FC5532E01FA5598D007D7E20 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532CD1FA5598B007D7E20 /* HomeViewController.m */; };
+		FC5532E11FA5598D007D7E20 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5532CF1FA5598C007D7E20 /* ViewUtils.m */; };
+		FC5532E41FA5613E007D7E20 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5532E21FA5613E007D7E20 /* SocialViewController.swift */; };
+		FC5532E51FA5613E007D7E20 /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5532E31FA5613E007D7E20 /* SocialViewController.xib */; };
+		FC5532EA1FA56196007D7E20 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5532E81FA56196007D7E20 /* SpeechViewController.swift */; };
+		FC5532EB1FA56196007D7E20 /* SpeechViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5532E91FA56196007D7E20 /* SpeechViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,36 @@
 		FC5532A61FA5524B007D7E20 /* ArticulateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticulateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5532AA1FA5524B007D7E20 /* ArticulateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticulateUITests.swift; sourceTree = "<group>"; };
 		FC5532AC1FA5524B007D7E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5532B81FA55985007D7E20 /* Articulate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Articulate-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC5532B91FA55987007D7E20 /* camera-flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash.png"; sourceTree = "<group>"; };
+		FC5532BA1FA55987007D7E20 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		FC5532BB1FA55987007D7E20 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		FC5532BC1FA55987007D7E20 /* camera-flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash@2x.png"; sourceTree = "<group>"; };
+		FC5532BD1FA55988007D7E20 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		FC5532BE1FA55988007D7E20 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		FC5532BF1FA55988007D7E20 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		FC5532C01FA55988007D7E20 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		FC5532C11FA55988007D7E20 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		FC5532C21FA55989007D7E20 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		FC5532C31FA55989007D7E20 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		FC5532C41FA55989007D7E20 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		FC5532C51FA55989007D7E20 /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
+		FC5532C61FA5598A007D7E20 /* camera-switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch.png"; sourceTree = "<group>"; };
+		FC5532C71FA5598A007D7E20 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		FC5532C81FA5598A007D7E20 /* camera-switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch@2x.png"; sourceTree = "<group>"; };
+		FC5532C91FA5598A007D7E20 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		FC5532CA1FA5598B007D7E20 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		FC5532CB1FA5598B007D7E20 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		FC5532CC1FA5598B007D7E20 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FC5532CD1FA5598B007D7E20 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FC5532CE1FA5598C007D7E20 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		FC5532CF1FA5598C007D7E20 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		FC5532D01FA5598C007D7E20 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		FC5532D11FA5598D007D7E20 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FC5532E21FA5613E007D7E20 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		FC5532E31FA5613E007D7E20 /* SocialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialViewController.xib; sourceTree = "<group>"; };
+		FC5532E81FA56196007D7E20 /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		FC5532E91FA56196007D7E20 /* SpeechViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeechViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +151,44 @@
 		FC5532851FA5524B007D7E20 /* Articulate */ = {
 			isa = PBXGroup;
 			children = (
+				FC5532B91FA55987007D7E20 /* camera-flash.png */,
+				FC5532BC1FA55987007D7E20 /* camera-flash@2x.png */,
+				FC5532C61FA5598A007D7E20 /* camera-switch.png */,
+				FC5532C81FA5598A007D7E20 /* camera-switch@2x.png */,
+				FC5532C31FA55989007D7E20 /* cancel.png */,
+				FC5532C11FA55988007D7E20 /* cancel@2x.png */,
+				FC5532C51FA55989007D7E20 /* cancel@3x.png */,
+				FC5532D11FA5598D007D7E20 /* HomeViewController.h */,
+				FC5532CD1FA5598B007D7E20 /* HomeViewController.m */,
+				FC5532CC1FA5598B007D7E20 /* ImageViewController.h */,
+				FC5532BE1FA55988007D7E20 /* ImageViewController.m */,
+				FC5532C91FA5598A007D7E20 /* LLSimpleCamera.h */,
+				FC5532C01FA55988007D7E20 /* LLSimpleCamera.m */,
+				FC5532CE1FA5598C007D7E20 /* LLSimpleCamera+Helper.h */,
+				FC5532CB1FA5598B007D7E20 /* LLSimpleCamera+Helper.m */,
+				FC5532C71FA5598A007D7E20 /* UIImage+Crop.h */,
+				FC5532C41FA55989007D7E20 /* UIImage+Crop.m */,
+				FC5532BB1FA55987007D7E20 /* UIImage+FixOrientation.h */,
+				FC5532BD1FA55988007D7E20 /* UIImage+FixOrientation.m */,
+				FC5532D01FA5598C007D7E20 /* UIImage+Resize.h */,
+				FC5532CA1FA5598B007D7E20 /* UIImage+Resize.m */,
+				FC5532BA1FA55987007D7E20 /* VideoViewController.h */,
+				FC5532C21FA55989007D7E20 /* VideoViewController.m */,
+				FC5532BF1FA55988007D7E20 /* ViewUtils.h */,
+				FC5532E81FA56196007D7E20 /* SpeechViewController.swift */,
+				FC5532E91FA56196007D7E20 /* SpeechViewController.xib */,
+				FC5532CF1FA5598C007D7E20 /* ViewUtils.m */,
 				FC5532861FA5524B007D7E20 /* AppDelegate.swift */,
 				FC5532881FA5524B007D7E20 /* RootViewController.swift */,
 				FC55328A1FA5524B007D7E20 /* DataViewController.swift */,
+				FC5532E21FA5613E007D7E20 /* SocialViewController.swift */,
+				FC5532E31FA5613E007D7E20 /* SocialViewController.xib */,
 				FC55328C1FA5524B007D7E20 /* ModelController.swift */,
 				FC55328E1FA5524B007D7E20 /* Main.storyboard */,
 				FC5532911FA5524B007D7E20 /* Assets.xcassets */,
 				FC5532931FA5524B007D7E20 /* LaunchScreen.storyboard */,
 				FC5532961FA5524B007D7E20 /* Info.plist */,
+				FC5532B81FA55985007D7E20 /* Articulate-Bridging-Header.h */,
 			);
 			path = Articulate;
 			sourceTree = "<group>";
@@ -199,6 +279,7 @@
 				TargetAttributes = {
 					FC5532821FA5524B007D7E20 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					FC55329A1FA5524B007D7E20 = {
@@ -239,8 +320,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC5532951FA5524B007D7E20 /* LaunchScreen.storyboard in Resources */,
+				FC5532DB1FA5598D007D7E20 /* cancel@3x.png in Resources */,
 				FC5532921FA5524B007D7E20 /* Assets.xcassets in Resources */,
+				FC5532D91FA5598D007D7E20 /* cancel.png in Resources */,
+				FC5532D31FA5598D007D7E20 /* camera-flash@2x.png in Resources */,
+				FC5532E51FA5613E007D7E20 /* SocialViewController.xib in Resources */,
+				FC5532DC1FA5598D007D7E20 /* camera-switch.png in Resources */,
 				FC5532901FA5524B007D7E20 /* Main.storyboard in Resources */,
+				FC5532EB1FA56196007D7E20 /* SpeechViewController.xib in Resources */,
+				FC5532DD1FA5598D007D7E20 /* camera-switch@2x.png in Resources */,
+				FC5532D71FA5598D007D7E20 /* cancel@2x.png in Resources */,
+				FC5532D21FA5598D007D7E20 /* camera-flash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +355,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5532DA1FA5598D007D7E20 /* UIImage+Crop.m in Sources */,
+				FC5532EA1FA56196007D7E20 /* SpeechViewController.swift in Sources */,
+				FC5532D51FA5598D007D7E20 /* ImageViewController.m in Sources */,
+				FC5532D61FA5598D007D7E20 /* LLSimpleCamera.m in Sources */,
 				FC5532891FA5524B007D7E20 /* RootViewController.swift in Sources */,
+				FC5532E11FA5598D007D7E20 /* ViewUtils.m in Sources */,
 				FC55328D1FA5524B007D7E20 /* ModelController.swift in Sources */,
 				FC55328B1FA5524B007D7E20 /* DataViewController.swift in Sources */,
+				FC5532D41FA5598D007D7E20 /* UIImage+FixOrientation.m in Sources */,
+				FC5532D81FA5598D007D7E20 /* VideoViewController.m in Sources */,
+				FC5532E41FA5613E007D7E20 /* SocialViewController.swift in Sources */,
 				FC5532871FA5524B007D7E20 /* AppDelegate.swift in Sources */,
+				FC5532DF1FA5598D007D7E20 /* LLSimpleCamera+Helper.m in Sources */,
+				FC5532DE1FA5598D007D7E20 /* UIImage+Resize.m in Sources */,
+				FC5532E01FA5598D007D7E20 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +535,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RBHTN68AC4;
 				INFOPLIST_FILE = Articulate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Articulate.Articulate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Articulate/Articulate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,12 +553,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RBHTN68AC4;
 				INFOPLIST_FILE = Articulate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Articulate.Articulate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Articulate/Articulate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
